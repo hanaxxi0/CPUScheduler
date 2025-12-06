@@ -294,5 +294,4 @@ const CPUScheduler = () => {
     </div>
   );
 };
-
 export default CPUScheduler;

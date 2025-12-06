@@ -22,13 +22,31 @@ a:hover {
   color: #535bf2;
 }
 
+
+
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
   min-height: 100vh;
 }
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%; /* أو 100% */
+  padding: 20px;
+  gap: 20px;
+}
+
+.processes, .algorithm {
+  flex: 1; /* يجعل الأعمدة تتمدد */
+max-width: 50%;
+}
+
 
 h1 {
   font-size: 3.2em;
